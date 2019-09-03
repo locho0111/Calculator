@@ -16,10 +16,10 @@ class ViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var FirstNumber: UILabel!
+    @IBOutlet weak var FirstNumberLabel: UILabel!
     
  
-    @IBOutlet weak var SecondNumber: UILabel!
+    @IBOutlet weak var SecondNumberLabel: UILabel!
     
     @IBOutlet weak var ScreenLabel: UILabel!
     
@@ -31,12 +31,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 1
-            FirstNumber.text = "1"
+            FirstNumberLabel.text = "1"
         }
         else
         {
             Second = 1
-            SecondNumber.text = "1"
+            SecondNumberLabel.text = "1"
         }
         
 
@@ -47,12 +47,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 2
-            FirstNumber.text = "2"
+            FirstNumberLabel.text = "2"
         }
         else
         {
             Second = 2
-            SecondNumber.text = "2"
+            SecondNumberLabel.text = "2"
         }
         
     }
@@ -62,12 +62,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 3
-            FirstNumber.text = "3"
+            FirstNumberLabel.text = "3"
         }
         else
         {
             Second = 3
-            SecondNumber.text = "3"
+            SecondNumberLabel.text = "3"
         }
         
     }
@@ -76,12 +76,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 4
-            FirstNumber.text = "4"
+            FirstNumberLabel.text = "4"
         }
         else
         {
             Second = 4
-            SecondNumber.text = "4"
+            SecondNumberLabel.text = "4"
         }
     }
     
@@ -89,12 +89,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 5
-            FirstNumber.text = "5"
+            FirstNumberLabel.text = "5"
         }
         else
         {
             Second = 5
-            SecondNumber.text = "5"
+            SecondNumberLabel.text = "5"
         }
     }
     
@@ -102,12 +102,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 6
-            FirstNumber.text = "6"
+            FirstNumberLabel.text = "6"
         }
         else
         {
             Second = 6
-            SecondNumber.text = "6"
+            SecondNumberLabel.text = "6"
         }
     }
     
@@ -115,12 +115,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 7
-            FirstNumber.text = "7"
+            FirstNumberLabel.text = "7"
         }
         else
         {
             Second = 7
-            SecondNumber.text = "7"
+            SecondNumberLabel.text = "7"
         }
     }
     
@@ -128,12 +128,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 8
-            FirstNumber.text = "8"
+            FirstNumberLabel.text = "8"
         }
         else
         {
             Second = 8
-            SecondNumber.text = "8"
+            SecondNumberLabel.text = "8"
         }
     }
     
@@ -141,12 +141,12 @@ class ViewController: UIViewController {
         if (First == -1)
         {
             First = 9
-            FirstNumber.text = "9"
+            FirstNumberLabel.text = "9"
         }
         else
         {
             Second = 9
-            SecondNumber.text = "9"
+            SecondNumberLabel.text = "9"
         }
     }
     
@@ -197,7 +197,7 @@ class ViewController: UIViewController {
     
     @IBAction func Operator_Dev(_ sender: Any) {
         //result = First / Second
-        var D_Result = Double(First) / Double(Second)
+        let D_Result = Double(First) / Double(Second)
         ScreenLabel.text = String(D_Result)
         
         First = -1
@@ -210,12 +210,12 @@ class ViewController: UIViewController {
     }
     
 
-    @IBAction func NewButton(_ sender: Any) {
+    @IBAction func New_Button(_ sender: Any) {
         First = -1
         Second = -1
         
-        FirstNumber.text = "First Number"
-        SecondNumber.text = "Second Number"
+        FirstNumberLabel.text = "First Number"
+        SecondNumberLabel.text = "Second Number"
         ScreenLabel.text = "Result"
         
     }
