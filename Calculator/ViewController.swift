@@ -174,9 +174,39 @@ class ViewController: UIViewController {
         
         if (result % 2 == 0)
         {
-            self.view.backgroundColor = UIColor.red
+            self.view.backgroundColor = UIColor.yellow
         }
 
+    }
+    
+    
+    @IBAction func Operator_Mul(_ sender: Any) {
+        result = First * Second
+        ScreenLabel.text = String(result)
+        
+        First = -1
+        Second = -1
+        
+        if (result % 2 == 0)
+        {
+            self.view.backgroundColor = UIColor.yellow
+        }
+    }
+    
+    
+    
+    @IBAction func Operator_Dev(_ sender: Any) {
+        //result = First / Second
+        var D_Result = Double(First) / Double(Second)
+        ScreenLabel.text = String(D_Result)
+        
+        First = -1
+        Second = -1
+        
+        if (result % 2 == 0)
+        {
+            self.view.backgroundColor = UIColor.yellow
+        }
     }
     
 

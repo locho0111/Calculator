@@ -150,6 +150,24 @@
                                     <action selector="NewButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CF5-tS-ZqS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JzX-XP-hhK">
+                                <rect key="frame" x="36" y="333" width="183" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16707103800000001" green="1" blue="0.89806157480000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="*"/>
+                                <connections>
+                                    <action selector="Operator_Mul:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XZa-C2-mYq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKY-yu-bUn">
+                                <rect key="frame" x="227" y="333" width="167" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16707103800000001" green="1" blue="0.89806157480000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="/"/>
+                                <connections>
+                                    <action selector="Operator_Dev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="do8-xu-VWC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
