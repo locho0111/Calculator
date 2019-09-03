@@ -169,5 +169,14 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func NewButton(_ sender: Any) {
+        First = -1
+        Second = -1
+        
+        FirstNumber.text = "First Number"
+        SecondNumber.text = "Second Number"
+        ScreenLabel.text = "Result"
+        
+    }
     
 }
