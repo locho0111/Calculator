@@ -157,6 +157,11 @@ class ViewController: UIViewController {
         
         First = -1
         Second = -1
+        
+        if (result % 2 == 0)
+        {
+            self.view.backgroundColor = UIColor.yellow
+        }
     }
     
     
@@ -166,6 +171,12 @@ class ViewController: UIViewController {
         
         First = -1
         Second = -1
+        
+        if (result % 2 == 0)
+        {
+            self.view.backgroundColor = UIColor.red
+        }
+
     }
     
 
